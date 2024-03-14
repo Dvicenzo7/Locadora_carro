@@ -118,8 +118,8 @@ body {
 }
 
 .tranding-slide .tranding-slide-img img {
-  width: 37rem;
-  height: 42rem;
+  width: 200px;
+  height: 100px;
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -150,6 +150,7 @@ body {
   padding-top: 1rem;
   display: flex;
   gap: 1rem;
+  text-align: center;
 }
 
 .rating ion-icon {
@@ -239,4 +240,46 @@ body {
   display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img{
+  height: 150px;
+  width: 150px;
+}
+
+.tranding-slide-content{
+  height: 210px;
+  width: 225px;
+}
+.food-name{
+  color: #212529;
+  text-align: center;
+}
+
+.botao-acesso{
+  width:  80px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 15px rgba(3, 3, 3, 3)
+}
+
+.swiper-buttton{
+  text-align: center; 
+}
+
+.food-rating{
+  margin-left: -21px;
+
+}
+
+.botao-acesso:hover {
+  background-color: black;
+  color: white; 
+}
+
+.swiper-slide{
+  height: 250px;
+  border-radius: 10px;
 }
